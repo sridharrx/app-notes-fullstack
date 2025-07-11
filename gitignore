@@ -1,0 +1,21 @@
+# Node.js backend
+node_modules/
+.env
+logs/
+*.log
+
+# Angular frontend
+frontend/notes-app/node_modules/
+frontend/notes-app/dist/
+frontend/notes-app/.angular/
+
+# Build output
+dist/
+tmp/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
