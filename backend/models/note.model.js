@@ -5,7 +5,10 @@ const noteSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  description: String,
+  body: {                  // 👈 changed from description to body
+    type: String,
+    required: true,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
